@@ -47,6 +47,10 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        cyber: {
+          DEFAULT: "hsl(189, 94%, 43%)",
+          dark: "hsl(220, 80%, 50%)",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -84,6 +88,11 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "glow-pulse": "glow-pulse 2s ease-in-out infinite",
+      },
+      boxShadow: {
+        'glow': '0 0 20px hsl(189 94% 43% / 0.5)',
+        'glow-strong': '0 0 30px hsl(189 94% 43% / 0.8)',
       },
     },
   },
