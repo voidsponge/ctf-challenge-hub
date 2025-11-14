@@ -8,33 +8,33 @@ import { toast } from "sonner";
 const themeConfig: Record<string, { name: string; debutant: string; expert: string }> = {
   web: {
     name: "Web",
-    debutant: "192.168.1.10",
-    expert: "192.168.1.11",
+    debutant: "192.168.240.201",
+    expert: "192.168.240.201",
   },
   linux: {
     name: "Linux",
-    debutant: "192.168.1.20",
-    expert: "192.168.1.21",
+    debutant: "192.168.240.201",
+    expert: "192.168.240.201",
   },
   crypto: {
     name: "Cryptographie",
-    debutant: "192.168.1.30",
-    expert: "192.168.1.31",
+    debutant: "192.168.240.201",
+    expert: "192.168.240.201",
   },
   osint: {
     name: "OSINT",
-    debutant: "192.168.1.40",
-    expert: "192.168.1.41",
+    debutant: "192.168.240.201",
+    expert: "192.168.240.201",
   },
   forensics: {
     name: "Forensics",
-    debutant: "192.168.1.50",
-    expert: "192.168.1.51",
+    debutant: "192.168.240.201",
+    expert: "192.168.240.201",
   },
   stegano: {
     name: "Stéganographie",
-    debutant: "192.168.1.60",
-    expert: "192.168.1.61",
+    debutant: "192.168.240.201",
+    expert: "192.168.240.201",
   },
 };
 
